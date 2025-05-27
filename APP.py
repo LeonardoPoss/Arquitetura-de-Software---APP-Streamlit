@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 from Models.Logger.Logging import setup_logging
-from Models.Service.profiling import Profiling
+from Models.Service.ProfilingService import Profiling
 from Controllers.Downloader import KaggleDownloader
 from Models.Service.Archive_Selector import escolher_dataset_streamlit
 from Models.Service.Trainer import PyCaretTrainer
